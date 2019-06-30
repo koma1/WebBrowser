@@ -11,13 +11,13 @@
 
     <item
         android:id="@+id/app_bar_back"
-        android:icon="@drawable/ic_navigate_before_black_24dp"
+        android:icon="@drawable/ic_navigate_before_24dp"
         android:title=""
         app:showAsAction="always"
         />
     <item
         android:id="@+id/app_bar_fwd"
-        android:icon="@drawable/ic_navigate_next_black_24dp"
+        android:icon="@drawable/ic_navigate_next_24dp"
         android:title=""
         app:showAsAction="always"
         />

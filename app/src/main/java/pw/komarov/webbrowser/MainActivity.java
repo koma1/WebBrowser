@@ -1,6 +1,5 @@
 package pw.komarov.webbrowser;
 
-import android.content.Context;
 import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,10 +30,10 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
                 goStopRefreshItem.setIcon(R.drawable.ic_go_black_24dp);
                 break;
             case STOP:
-                goStopRefreshItem.setIcon(R.drawable.ic_stop_black_24dp);
+                goStopRefreshItem.setIcon(R.drawable.ic_stop_24dp);
                 break;
             case REFRESH:
-                goStopRefreshItem.setIcon(R.drawable.ic_refresh_black_24dp);
+                goStopRefreshItem.setIcon(R.drawable.ic_refresh_24dp);
                 break;
         }
 
