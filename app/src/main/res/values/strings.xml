@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Web Browser</string>
     <string name="search_caption">Type URL or search query</string>
+    <string name="url_hint">Type URL here...</string>
 </resources>

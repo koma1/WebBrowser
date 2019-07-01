@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:theme="@style/Toolbar">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize">
+
+        <EditText
+            android:id="@+id/edtUrl"
+            android:layout_width="315dp"
+            android:layout_height="match_parent"
+            android:inputType="textUri"
+            android:hint="@string/url_hint"
+            android:selectAllOnFocus="true"
+            />
+        <ImageButton
+            android:id="@+id/btnGoStopRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/edtUrl"
+            android:layout_alignRight="@id/edtUrl"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_action_go_24dp"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/edtUrl"
+            android:layout_toEndOf="@id/edtUrl"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_navigate_back_disabled_24dp"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/btnForward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btnBack"
+            android:layout_toEndOf="@id/btnBack"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_navigate_forward_disabled_24dp"
+            android:background="@android:color/transparent"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
